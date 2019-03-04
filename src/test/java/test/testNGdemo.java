@@ -33,6 +33,15 @@ public class testNGdemo {
         Assert.assertEquals(actualTitle, expectedTitle);
         //test git hhhhhbhbhbhbhbhbhbh
 	}
+	
+	@Test
+	public void testCase4() {
+		
+        String expectedTitle = "Welcome: Mercury Tourssssss";
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle, expectedTitle);
+        //test git hhhhhbhbhbhbhbhbhbh
+	}
 
 	@BeforeTest
 	public void beforeTest() {
